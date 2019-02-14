@@ -1,0 +1,5 @@
+<h1>Input Product Anda!</h1>
+<form method="POST" class="post-form" enctype="multipart/form-data">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
